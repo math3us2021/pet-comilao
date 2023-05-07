@@ -1,1 +1,15 @@
-<p>statistic works!</p>
+<p-card styleClass="teste">
+  <div class="img">
+    <img src="assets/image/logo_pet.png" alt="Logo" class="imgSize">
+  </div>
+  <div class="header">
+    <h1><strong>DASHBOARD</strong></h1>
+    <button pButton pRipple label="Atualizar Dados" icon="pi pi-check"
+    class="p-button-warning"
+    ></button>
+  </div>
+  <div class="select">
+
+<p-treeSelect class="md:w-20rem w-full" containerStyleClass="w-full" [(ngModel)]="selectedNodes" [options]="nodes" placeholder="Select Item"></p-treeSelect>
+  </div>
+</p-card>

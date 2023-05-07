@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class StatisticComponent {
 
+  nodes: any[] = [{
+    "label": "Node 1",
+  },
+{
+    "label": "Node 2",
+}]
+  selectedNodes: any = ''
+
 }
